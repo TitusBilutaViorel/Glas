@@ -1,0 +1,65 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&display=swap');
+
+/* General Variabiles */
+:root {
+    --header-height: 3.5rem;
+
+    /* Colors (hue, saturation, lightness) */
+    --bg-color: hsl(282, 31%, 89%);
+    --bg-color-light: hsl(220, 18%, 86%);
+    --title-color: hsl(220, 8%, 15%);
+    --text-color: hsl(214, 4%, 32%);
+    --text-color-light: hsl(220, 4%, 55%);
+    --body-color: hsl(220, 18%, 99%);
+    --container-color: hsl(220, 18%, 97%); 
+    --header-shadow: hsla(220, 4%, 15%, 0.1);
+    --scroll-color: hsl(279, 20%, 84%);
+    --scroll-color-thumb: hsl(277, 27%, 75%);
+    --scroll-color-thumb-hover: hsl(279, 25%, 67%);
+    --darkmode-shadow: hsla(300, 17%, 8%, 0.3);
+    --dkscroll-color: hsl(219, 18%, 22%);
+    --dkscroll-color-thumb: hsl(280, 17%, 27%);
+    --dkscroll-color-thumb-hover: hsl(280, 17%, 30%);
+
+    /* Font */
+    --body-font: 'Comfortaa', sans-serif;
+    --smallest-font-size: 0.75rem;
+    --small-font-size: 0.813rem;
+    --normal-font-size: 0.938rem;
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+
+    /* Font weight */
+    --font-medium: 400;
+    --font-regular: 500;
+    --font-semi-bold: 600;
+
+    /* z */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+@media screen and (min-width: 1124px) {
+    :root {
+      --smallest-font-size: 0.813rem;
+      --small-font-size: 0.875rem;
+      --normal-font-size: 1rem;
+      --biggest-font-size: 2rem;
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+    }
+}
+
+/* Dark Mode */
+body.dark-theme{
+  --bg-color: hsl(271, 37%, 11%);
+  --bg-color-light: hsl(220, 18%, 17%);
+  --title-color: hsl(220, 8%, 90%);
+  --text-color: hsl(214, 8%, 65%);
+  --body-color: hsl(220, 18%, 20%);
+  --container-color: hsl(220, 18%, 20%); 
+}

@@ -1,0 +1,76 @@
+/* Header and Navigation */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: var(--z-fixed);
+    transition: 0.4s;
+}
+
+.header-img{
+    width: 100px;
+}
+
+.navigation{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__up{
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1023px){
+
+    .navigation__menu{
+        position: fixed;
+        bottom: 1.5rem;
+        background-color: var(--body-color);
+        box-shadow: 0 4px 12px hsla(220, 18%, 40%, 0.15);
+        width: 90%;
+        left: 0;
+        right: 0;
+        margin: 0  auto;
+        padding: 1.4rem 1.6rem;
+        border-radius: 0.6rem;
+        transition: 0.4s;
+    }
+    
+    .navigation__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navigation__link{
+        color: var(--text-color-light);
+        font-weight: var(--font-regular);
+        display: grid;
+        justify-items: center;
+        row-gap: 0.3rem;
+        font-size: x-small;
+    }
+
+    .navigation__link i{
+        font-size: 1.35rem;
+    }
+
+    .navigation__link span{
+        font-size: 0.6rem;
+    }
+}
+
+.scroll-header{
+    background-color: var(--body-color);
+    box-shadow: 0 1px 4px var(--header-shadow);
+}
+
+.active-link{
+    color: var(--title-color);
+    font-size: 0.65rem;
+}

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+        <!-- Icons -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/var.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/header-nav.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/products.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/breakpoints.css">
+        <link rel="stylesheet" href="css/scrollreveal.css">
+
+        <title> Clothing brand - The Glas </title>
+    </head>
+    <body>  
+
+
+        <!-- Header -->
+        <header class="header" id="header">
+            <nav class="navigation container">
+
+                 <!-- Dark mode button -->
+                 <i class="ri-moon-fill change-darkmode" id="darkmode-button"></i>
+
+                <div class="navigation__menu" id="navigation-menu">
+                    <ul class="navigation__list">
+
+                        <li class="navigation__item">
+                            <a href="#home" class="navigation__link active-link">
+                                <i class="ri-home-heart-fill"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li class="navigation__item">
+                            <a href="#newarrivals" class="navigation__link">
+                                <i class="ri-calendar-todo-fill"></i>
+                                <span>New Arrivals</span>
+                            </a>
+                        </li>
+
+                        <li class="navigation__item">
+                            <a href="#products" class="navigation__link">
+                                <i class="ri-t-shirt-fill"></i>
+                                <span>Products</span>
+                            </a>
+                        </li>
+
+                        <li class="navigation__item">
+                            <a href="#brandgoals" class="navigation__link">
+                                <i class="ri-hourglass-fill"></i>
+                                <span>Brand Goals</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <img src="img/LOGO.w.png" alt="header img" class="header-img">
+
+                <a href="#" class="navigation__up">
+                    <i class="ri-arrow-up-s-fill"></i>
+                </a>
+                
+            </nav>
+        </header>  
+
+        <!-- Main -->
+        <main class="main">
+
+            <!-- Home Page -->
+            <section class="home section" id="home">
+
+                <div class="home__container container grid">
+
+                    <div class="home__info">
+                        <h1 class="home__title">
+                            First Collection <br>
+                            Mockups
+                        </h1>
+
+                        <p class="home__description">
+                            Through GLAS we express <br>
+                            our powerful voice.
+                        </p>
+
+                        <a href="#01tee" class="button__link">
+                            <i class="ri-arrow-right-s-line"></i> Explore
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <img src="img/TeeLogo01.png" alt="home img" class="rounded-edges">
+                        <img src="img/TeeLogo02.png" alt="home img" class="rounded-edges">
+                        <div class="home__price">24,99 €</div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- New Arrivals-->
+            <section class="newarrivals section" id="newarrivals">
+                <h2 class="section__title">
+                    New Arrivals
+                </h2>
+
+                <div class="new__container container grid">
+                    <article class="new__card">
+                        <img src="img/TeeNew01.png" alt="image" class="new__img">
+
+                        <a href="#02tee" class="new__link">
+                            <div class="new__info">
+                                <h2 class="new__title">
+                                    Tie Dye Collection
+                                </h2>
+                                <span>
+                                    T-shirt &nbsp;&nbsp;&nbsp;&nbsp; 30 €
+                                </span>
+                            </div>
+                            
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+
+                    </article>
+
+                    <article class="new__card">
+                        <img src="img/NewTee03.png" alt="image" class="new__img">
+
+                        <a href="#03tee" class="new__link">
+                            <div class="new__info">
+                                <h2 class="new__title">
+                                    Meet Your Maker Collection
+                                </h2>
+                                <span>
+                                    T-shirt &nbsp;&nbsp;&nbsp;&nbsp; 27 €
+                                </span>
+                            </div>
+
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Products-->
+            <section class="products section" id="products">
+                <h2 class="section__title">
+                    Our t-shirts
+                </h2>
+
+                <div class="products__container container">
+                  
+                        <article class="products__card" id="01tee">
+                                <div class="swiper swiper1">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="img/TeeLogo02.png" alt="image" class="rounded-edges"></div>
+                                        <div class="swiper-slide"><img src="img/TeeLogo01.png" alt="image" class="rounded-edges"></div>
+                                    </div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            
+                        </article>
+
+                        <article class="products__card" id="02tee">
+                                <div class="swiper swiper2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="img/TeeNew01.png" alt="image" class="rounded-edges"></div>
+                                        <div class="swiper-slide"><img src="img/TeeNew02.png" alt="image" class="rounded-edges"></div>
+                                    </div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                        </article>
+
+                        <article class="products__card" id="03tee">
+                                <div class="swiper swiper3">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="img/NewTee03.png" alt="image" class="rounded-edges"></div>
+                                        <div class="swiper-slide"><img src="img/NewTee04.png" alt="image" class="rounded-edges"></div>
+                                    </div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                        </article>
+                        
+                </div>
+            </section>
+
+            <!-- Brand Goals-->
+            <section class="brand section" id="brandgoals">
+                <h2 class="section__title">
+                    Brand Goals
+                </h2>
+
+                <div class="brand__container container grid">
+                    <div class="brand__text">
+                        <h2 class="brand__text1">
+                            Our initiative is to create <br>
+                            a streetwear brand.
+                        </h2>
+
+                        <p class="brand__text2">
+                            By establishing such a brand, we would like to value principles
+                            such as individuality, uniqueness and <br>
+                            self-expression of buyers. 
+                        </p>
+
+                        <p class="brand__text3">
+                            We want this initiative to represent a means of identifying people with
+                            their own values and preferences of an aesthetic and artistic nature, as
+                            our brand serves as an original alternative of local producers to fast
+                            fashion invaded by generic western influences and acts of plagiarism of
+                            some other well-known fashion houses / brands.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Shop.
+                    </a>
+
+                    <p class="footer__description">
+                        Commited to bring you the <br>
+                        best quality t-shirts from <br>
+                        our unique brand.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            GLAS
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#products" class="footer__link">Shop</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Collections</a>
+                            </li>
+                            <li>
+                                <a href="#aboutus" class="footer__link">Contact info</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Blog
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#newarrivals" class="footer__link">Releases</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Popular News</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Recent News</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title" id="aboutus">
+                            About us
+                        </h3>
+
+                        <ul class="footer__information">
+                            <li class="footer__contact">Monday - Friday</li>
+                            <li class="footer__contact">09:00 AM - 20:00 PM</li>
+                            <li class="footer__contact">email: contact@glas.com</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Follow us
+                        </h3>
+
+                        <ul class="footer__social">
+                            <div>
+                            <a href="" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="" class="footer__social-link">
+                                <i class="ri-tiktok-fill"></i>
+                            </a>
+                            </div>
+                            <div>
+                            <a href="" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="" class="footer__social-link">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Glas. All rigths reserved <br>
+                </span>
+
+                <a href="" class="footer__privacy">
+                    Terms & Conditions
+                </a>
+            </div>
+        </footer>
+
+        <!-- Swipper -->
+        <script src="js/swiper-bundle.min.js">
+                
+        </script>
+
+        <!-- Scroll Header -->
+        <script src="js/scrollheader.js">
+                
+        </script>
+
+        <!-- Swiper Producs -->
+        <script src="js/swiper-products.js">
+
+        </script>
+
+        <!-- Scroll Sections -->
+        <script src="js/scrollsections.js">
+
+        </script>
+
+        <!-- Dark Mode -->
+        <script src="js/darkmode.js">
+
+        </script>
+
+        <!-- Scroll Reveal -->
+        <script src="js/scrollreveal.min.js">
+
+        </script>
+
+        <script src="js/scrollreveal.js">
+            
+        </script>
+
+    </body>
+</html>

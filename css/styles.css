@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+    transition: 0.4s;
+}
+
+h1,h2,h3{
+    color: var(--title-color);
+    font-weight: var(--font-regular);
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.ri-home-heart-fill {
+    color: rgb(111, 76, 117);
+}
+
+.ri-calendar-todo-fill {
+    color: rgb(111, 76, 117);
+}
+
+.ri-t-shirt-fill {
+    color: rgb(111, 76, 117);
+}
+
+.ri-hourglass-fill {
+    color: rgb(111, 76, 117);
+}
+
+.ri-moon-fill {
+    color: rgb(111, 76, 117);
+}   
+
+.ri-arrow-right-s-line {
+    color: rgb(111, 76, 117);
+}
+
+.ri-arrow-up-s-fill {
+    color: rgb(111, 76, 117);
+}
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--scroll-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--scroll-color-thumb);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--scroll-color-thumb-hover);
+}
+
+/* Dark Mode */
+
+.change-darkmode{
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--title-color);
+}
+
+.dark-theme .scroll-header{
+    box-shadow: 0 2px 8px var(--darkmode-shadow);
+}
+
+.dark-theme .navigation__menu{
+    background-color: var(--container-color);
+    box-shadow: 0 2px 8px var(--darkmode-shadow);
+}
+
+.dark-theme::-webkit-scrollbar{
+    background-color: var(--dkscroll-color);
+}
+
+.dark-theme::-webkit-scrollbar-thumb{
+    background-color: var(--dkscroll-color-thumb);
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover{
+    background-color: var(--dkscroll-color-thumb-hover);
+}

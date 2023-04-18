@@ -1,0 +1,40 @@
+.products{
+    background-color: var(--bg-color);
+}
+
+.swiper{
+    width: 95%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #ffffff;
+}
+
+.swiper-button-next::after{
+    font-size: 1rem;
+    opacity: 80%;
+    margin-left: 1rem;
+}
+
+.swiper-button-prev::after{
+    font-size: 1rem;
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+.products__card{
+    padding: 0.8rem;
+}
+
+.swiper-button-next:hover{
+    opacity: 60%;
+}
+
+ .swiper-button-prev:hover{
+    opacity: 50%
+}
